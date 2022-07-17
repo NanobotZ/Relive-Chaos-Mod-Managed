@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	--text-color: #ffffff;
+	--text-font-family: 'Arial';
+	--text-font-weight: 600;
+	--text-outline-color: #000000;
+	--text-outline-thickness: 1.3px;
+	--text-size: 22pt;
+
+	--option-background-disabled: #afafaf;
+	--option-background: #727272;
+	--option-opacity: 0.6;
+	--option-font-size: 16pt;
+	--option-font-weight: 600;
+	--option-font: var(--text-font-family);
+	--option-height: 35px;
+	--option-width: 450px;
+	--option-text-color: #f1f1f1;
+	--option-text-outline-color: #000000;
+	--option-text-outline-thickness: 0px;
+	--option-border-radius: 8px;
+}
+
+#total_votes {
+	display: block;
+	-webkit-text-stroke: var(--text-outline-thickness) var(--text-outline-color);
+	color: var(--text-color);
+	font-family: var(--text-font-family);
+	font-size: var(--text-size);
+	font-weight: var(--text-font-weight);
+	opacity: 1;
+	transition: opacity 200ms ease-in-out;
+}
+
+#option_container {
+	overflow: hidden;
+	max-width: var(--option-width);
+	width: 100%;
+}
+
+.option {
+	display: block;
+	max-width: var(--option-width);
+	width: 100%;
+	opacity: var(--option-opacity);
+	box-sizing: border-box;
+	background-color: var(--option-background);
+	height: var(--option-height);
+	line-height: var(--option-height);
+	margin: 10px 0;
+	border-radius: var(--option-border-radius);
+	
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1em;
+}
+
+.option_label {
+	-webkit-text-stroke: var(--option-text-outline-thickness) var(--option-text-outline-color);
+	color: var(--option-text-color);
+	font-family: var(--option-font);
+	font-size: var(--option-font-size);
+	font-weight: var(--option-font-weight);
+}
+
+.option_label_vote {
+	float: right;
+}
