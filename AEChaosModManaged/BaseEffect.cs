@@ -81,6 +81,10 @@ namespace AEChaosModManaged
         BouncyThrowables,
         SpawnUXBs,
         Fade,
+        GiveRedRing,
+        GiveShrykullRing,
+        GiveInvisibilityRing,
+        GiveHealingRing,
         Random = 65535
     }
 

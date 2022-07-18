@@ -76,10 +76,14 @@
     <Compile Include="Effects\FlipScreenY.cs" />
     <Compile Include="Effects\GameHalfSpeedEffect.cs" />
     <Compile Include="Effects\DiscoEffect.cs" />
+    <Compile Include="Effects\GiveHealingRingEffect.cs" />
+    <Compile Include="Effects\GiveInvisibilityRingEffect.cs" />
+    <Compile Include="Effects\GiveRedRingEffect.cs" />
     <Compile Include="Effects\GiveRocksEffect.cs" />
     <Compile Include="Effects\GiveBonesEffect.cs" />
     <Compile Include="Effects\GiveMeatEffect.cs" />
     <Compile Include="Effects\GiveGrenadesEffect.cs" />
+    <Compile Include="Effects\GiveShrykullRingEffect.cs" />
     <Compile Include="Effects\HorizontalDinnerboneEffect.cs" />
     <Compile Include="Effects\InGameChatEffect.cs" />
     <Compile Include="Effects\OnePunchAbeEffect.cs" />
