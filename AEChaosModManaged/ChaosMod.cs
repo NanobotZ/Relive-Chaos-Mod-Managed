@@ -321,7 +321,7 @@ namespace AEChaosModManaged
         [DllExport]
         public static void _skipCurrentEffect()
         {
-            Instance.effectDuration = TimeSpan.Zero;
+            Instance.effectDuration = TimeSpan.FromSeconds((Instance.effectStartTime + Instance.effectDuration - DateTime.Now).TotalSeconds + 2); // leave at least two seconds for the game to clean current effect
         }
 
         [DllExport]

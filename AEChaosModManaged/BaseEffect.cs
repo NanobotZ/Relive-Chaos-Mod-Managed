@@ -80,6 +80,7 @@ namespace AEChaosModManaged
         FlipScreenY,
         BouncyThrowables,
         SpawnUXBs,
+        Fade,
         Random = 65535
     }
 
