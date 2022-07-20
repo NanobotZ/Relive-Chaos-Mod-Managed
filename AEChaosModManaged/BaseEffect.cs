@@ -85,6 +85,7 @@ namespace AEChaosModManaged
         GiveShrykullRing,
         GiveInvisibilityRing,
         GiveHealingRing,
+        DoubleJump,
         Random = 65535
     }
 

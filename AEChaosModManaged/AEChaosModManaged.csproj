@@ -69,6 +69,7 @@
     <Compile Include="Effects\AllMudsToAbeEffect.cs" />
     <Compile Include="Effects\BouncyThrowablesEffect.cs" />
     <Compile Include="Effects\DinnerboneEffect.cs" />
+    <Compile Include="Effects\DoubleJumpEffect.cs" />
     <Compile Include="Effects\FadeEffect.cs" />
     <Compile Include="Effects\FakeAbeSuicideEffect.cs" />
     <Compile Include="Effects\FatAbeEffect.cs" />
