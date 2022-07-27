@@ -86,6 +86,7 @@ namespace AEChaosModManaged
         GiveInvisibilityRing,
         GiveHealingRing,
         DoubleJump,
+        FartCommunication,
         Random = 65535
     }
 

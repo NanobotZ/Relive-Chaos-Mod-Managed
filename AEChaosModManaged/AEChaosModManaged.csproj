@@ -72,6 +72,7 @@
     <Compile Include="Effects\DoubleJumpEffect.cs" />
     <Compile Include="Effects\FadeEffect.cs" />
     <Compile Include="Effects\FakeAbeSuicideEffect.cs" />
+    <Compile Include="Effects\FartCommunicationEffect.cs" />
     <Compile Include="Effects\FatAbeEffect.cs" />
     <Compile Include="Effects\FlipScreenX.cs" />
     <Compile Include="Effects\FlipScreenY.cs" />
